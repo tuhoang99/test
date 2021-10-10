@@ -1,0 +1,25 @@
+.text{
+  font-size: 12px;
+  font-weight: 600;
+}
+.img{
+  width: 374px;
+  height: 207px;
+}
+.pb{
+  padding-bottom: 100px;
+}
+.slider{
+  max-width: 1550px;
+}
+
+@media (max-width: 768px){
+.img{
+  height: 120px;
+}
+.text-sider{
+  display: none;
+}
+
+
+}

@@ -1,0 +1,39 @@
+.background{
+  background-color: #f5f6fa;
+  width: 100%;
+  padding: 80px;
+}
+.text-tutorial{
+  font-size: 12px;
+  color: orangered;
+}
+.img-tutorial{
+  width: 394px;
+  height: 533px;
+  padding: 25px;
+}
+.img-text{
+  font-size: 12px;
+  
+}
+
+@media (max-width: 768px){
+  .img-tutorial{
+    width: 300px;
+    height: 400px;
+    padding: 25px;
+    background-size: cover;
+  } 
+}
+
+@media screen and (max-width: 576px){
+  .img-tutorial{
+    width: 500px !important;
+    height: 400px;
+    padding: 25px;
+    background-size: cover;
+  } 
+  .background{
+    padding: 28px 28px !important;
+  }
+}

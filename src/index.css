@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Korean';
+  src: local('Korean'), url('./fonts/Korean/NotoSansKR-Medium.otf') format('truetype');
+  font-weight: normal;
+}
+
+*{
+  font-family: Korean;
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box;
+}

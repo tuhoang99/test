@@ -1,0 +1,31 @@
+.background-video{
+  background-color: orangered;
+  width: 100%;
+  padding: 80px;
+}
+.img-video{
+  width: 448px;
+  height: 426px;
+}
+.text-video{
+  font-size: 12px;
+}
+
+@media (max-width:768px){
+  .img-video{
+    width: 288px;
+    height: 266px;
+  }
+}
+@media (max-width:578px){
+  .img-video{
+    width: 348px;
+    height: 306px;
+  }
+  .center{
+    justify-content: center;
+  }
+  .background-video{
+    padding: 28px;
+  }
+}

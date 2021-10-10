@@ -1,0 +1,35 @@
+.background-videomake{
+  background-color: white;
+  width: 100%;
+  padding: 80px;
+}
+.img-videomake{
+  width: 448px;
+  height: 426px;
+}
+.text-videomake{
+  font-size: 12px;
+  color: orangered;
+}
+
+@media (max-width:768px){
+  .img-videomake{
+    width: 288px;
+    height: 266px;
+  }
+}
+@media (max-width:578px){
+  .img-videomake{
+    width: 348px;
+    height: 306px;
+  }
+  .center{
+    justify-content: center;
+  }
+  .background-videomake{
+    padding: 28px;
+  }
+  .text-make-start{
+    text-align: start !important;
+  }
+}

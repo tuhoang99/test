@@ -1,0 +1,21 @@
+.background-footer1{
+  background-color: #f9fafb;
+  width: 100%;
+  padding: 60px;
+}
+.text-footer1{
+  color: #bdc3c7;
+  font-weight: lighter;
+  font-size: 12px;
+}
+.icon-footer1{
+  padding: 13px 15px;
+  background-color: #b7bcc4;
+  border-radius: 50px;
+}
+
+@media (max-width:768px){
+  .icon-footer1{
+    display: none;
+  }
+}

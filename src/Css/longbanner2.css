@@ -1,0 +1,13 @@
+.long-banner2{
+  background-image:url(../Image/longbanner.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 276px;
+  background-position: center center;
+}
+
+@media (max-width:768px){
+  .long-banner2{
+    height: 150px;
+  }
+}
